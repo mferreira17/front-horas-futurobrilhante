@@ -8,10 +8,12 @@ import '@babel/polyfill'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
 import VueMask from 'di-vue-mask'
+import Vuelidate from 'vuelidate'
 
 Vue.config.productionTip = false
 Vue.config.useEslint = false
 
+Vue.use(Vuelidate)
 Vue.use(VueMask)
 
 new Vue({
